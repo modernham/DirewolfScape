@@ -15,7 +15,7 @@ build_server() {
   tar xvf Server/build/distributions/Server.tar || exit
 }
 build_client() {
-  echo "Building client..."
+  echo "Building client...."
   echo "Change IP from 127.0.0.1?(y/N)"
   read -r changeIP
   if [ "$changeIP" = "y" ]; then
