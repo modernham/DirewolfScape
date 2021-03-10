@@ -1,0 +1,82 @@
+[2021-03-07 14:07:15][DirewolfScape]: Prompting DirewolfScape Game World...
+[2021-03-07 14:07:15][DirewolfScape]: Initializing cache...
+[2021-03-07 14:07:18][DirewolfScape]: Parsed 30 DirewolfScape scripts...
+[2021-03-07 14:07:18][DirewolfScape]: [Config Parser]: Parsed 119 interface configs.
+[2021-03-07 14:07:19][DirewolfScape]: [Config Parser]: Parsed 13573 object configs.
+[2021-03-07 14:07:19][DirewolfScape]: [Config Parser]: Parsed 1410 region keys.
+[2021-03-07 14:07:19][DirewolfScape]: [Config Parser]: Parsed 4278 NPC configurations
+[2021-03-07 14:07:19][DirewolfScape]: [Config Parser]: Parsed 11951 item configs.
+[2021-03-07 14:07:20][DirewolfScape]: [World Events(penguin-hns)] Penguin HNS initialized.
+[2021-03-07 14:07:20][DirewolfScape]: [World Events(shooting-stars)] Shooting Star event has been initialized.
+[2021-03-07 14:07:20][DirewolfScape]: Init with null player
+[2021-03-07 14:07:20][DirewolfScape]: FOG interface initialized
+[2021-03-07 14:07:20][DirewolfScape]: Registered barrows sets.
+[2021-03-07 14:07:20][DirewolfScape]: Registered manager plugin.barbtraining.fishing.SpotManager@1efdcd5
+[2021-03-07 14:07:20][DirewolfScape]: Initialized 1797 plugins...
+[2021-03-07 14:07:20][DirewolfScape]: Initialized Rare Drop Table from .\data\RDT.xml\
+[2021-03-07 14:07:20][DirewolfScape]: [Config Parser]: Parsed 216 ammo configs...
+[2021-03-07 14:07:20][DirewolfScape]: [Config Parser]: Parsed 174 ranged weapon configs...
+[2021-03-07 14:07:20][DirewolfScape]: Made it to 173
+[2021-03-07 14:07:20][DirewolfScape]: [Config Parser]: Parsed 515 door configs.
+[2021-03-07 14:07:20][DirewolfScape]: [Config Parser]: Initialized 434 ground items.
+[2021-03-07 14:07:20][DirewolfScape]: [Config Parser]: Parsed 227 shops.
+[2021-03-07 14:07:20][DirewolfScape]: [Config Parser]: Parsed 375 music configs.
+[2021-03-07 14:07:20][DirewolfScape]: [Config Parser]: Parsed 0 drop tables.
+[2021-03-07 14:07:20][DirewolfScape]: Made it to 180
+[2021-03-07 14:07:21][DirewolfScape]: 185
+[2021-03-07 14:07:21][DirewolfScape]: 188
+[2021-03-07 14:07:21][DirewolfScape]: Starting NIO reactor...
+[2021-03-07 14:07:21][DirewolfScape]: [Config Parser]: Spawned 10373 NPCs
+[2021-03-07 14:07:21][DirewolfScape]: Attempting to connect to management server...
+[2021-03-07 14:07:21][DirewolfScape]: DirewolfScape flags GameSettings [name=DirewolfScape, debug=false, devMode=false, gui=false, worldId=1]
+[2021-03-07 14:07:21][DirewolfScape]: DirewolfScape started in 5765 milliseconds.
+[2021-03-07 14:07:21][DirewolfScape]: Management server status: NOT_AVAILABLE.
+[2021-03-07 14:07:21][DirewolfScape]: Failed registering world to AMS - [id=1, cause=World id already in use]!
+[2021-03-07 14:07:27][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-07 14:07:30][DirewolfScape]: [SystemShutdownHook] Terminating...
+[2021-03-07 14:07:30][DirewolfScape]: [SystemTerminator] Initializing termination sequence - do not shutdown!
+[2021-03-07 14:07:30][DirewolfScape]: [SystemTerminator] Saving data [dir=E:\RSPS\ServerProduction\Server\data]...
+[2021-03-07 14:07:31][DirewolfScape]: [SystemTerminator] Saved Grand Exchange databases!
+[2021-03-07 14:07:31][DirewolfScape]: [SystemTerminator] Saved player accounts!
+[2021-03-07 14:07:31][DirewolfScape]: [SystemTerminator] Server successfully terminated!
+[2021-03-07 14:08:05][DirewolfScape]: Prompting DirewolfScape Game World...
+[2021-03-07 14:08:05][DirewolfScape]: Initializing cache...
+[2021-03-07 14:08:07][DirewolfScape]: Parsed 30 DirewolfScape scripts...
+[2021-03-07 14:08:07][DirewolfScape]: [Config Parser]: Parsed 119 interface configs.
+[2021-03-07 14:08:07][DirewolfScape]: [Config Parser]: Parsed 13573 object configs.
+[2021-03-07 14:08:07][DirewolfScape]: [Config Parser]: Parsed 1410 region keys.
+[2021-03-07 14:08:08][DirewolfScape]: [Config Parser]: Parsed 4278 NPC configurations
+[2021-03-07 14:08:08][DirewolfScape]: [Config Parser]: Parsed 11951 item configs.
+[2021-03-07 14:08:08][DirewolfScape]: [World Events(penguin-hns)] Penguin HNS initialized.
+[2021-03-07 14:08:08][DirewolfScape]: [World Events(shooting-stars)] Shooting Star event has been initialized.
+[2021-03-07 14:08:08][DirewolfScape]: Init with null player
+[2021-03-07 14:08:09][DirewolfScape]: FOG interface initialized
+[2021-03-07 14:08:09][DirewolfScape]: Registered barrows sets.
+[2021-03-07 14:08:09][DirewolfScape]: Registered manager plugin.barbtraining.fishing.SpotManager@1efdcd5
+[2021-03-07 14:08:09][DirewolfScape]: Initialized 1797 plugins...
+[2021-03-07 14:08:09][DirewolfScape]: Initialized Rare Drop Table from .\data\RDT.xml\
+[2021-03-07 14:08:09][DirewolfScape]: [Config Parser]: Parsed 216 ammo configs...
+[2021-03-07 14:08:09][DirewolfScape]: Made it to 173
+[2021-03-07 14:08:09][DirewolfScape]: [Config Parser]: Parsed 174 ranged weapon configs...
+[2021-03-07 14:08:09][DirewolfScape]: [Config Parser]: Parsed 515 door configs.
+[2021-03-07 14:08:09][DirewolfScape]: [Config Parser]: Initialized 434 ground items.
+[2021-03-07 14:08:09][DirewolfScape]: [Config Parser]: Parsed 227 shops.
+[2021-03-07 14:08:09][DirewolfScape]: [Config Parser]: Parsed 375 music configs.
+[2021-03-07 14:08:09][DirewolfScape]: [Config Parser]: Parsed 0 drop tables.
+[2021-03-07 14:08:09][DirewolfScape]: Made it to 180
+[2021-03-07 14:08:10][DirewolfScape]: 185
+[2021-03-07 14:08:10][DirewolfScape]: 188
+[2021-03-07 14:08:10][DirewolfScape]: Starting NIO reactor...
+[2021-03-07 14:08:10][DirewolfScape]: [Config Parser]: Spawned 10373 NPCs
+[2021-03-07 14:08:10][DirewolfScape]: Attempting to connect to management server...
+[2021-03-07 14:08:10][DirewolfScape]: DirewolfScape flags GameSettings [name=DirewolfScape, debug=false, devMode=false, gui=false, worldId=1]
+[2021-03-07 14:08:10][DirewolfScape]: DirewolfScape started in 4899 milliseconds.
+[2021-03-07 14:08:10][DirewolfScape]: Management server status: NOT_AVAILABLE.
+[2021-03-07 14:08:10][DirewolfScape]: Failed registering world to AMS - [id=1, cause=World id already in use]!
+[2021-03-07 14:08:15][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-07 14:08:26][DirewolfScape]: [SystemShutdownHook] Terminating...
+[2021-03-07 14:08:26][DirewolfScape]: [SystemTerminator] Initializing termination sequence - do not shutdown!
+[2021-03-07 14:08:26][DirewolfScape]: [SystemTerminator] Saving data [dir=E:\RSPS\ServerProduction\Server\data]...
+[2021-03-07 14:08:26][DirewolfScape]: [SystemTerminator] Saved Grand Exchange databases!
+[2021-03-07 14:08:26][DirewolfScape]: [SystemTerminator] Saved player accounts!
+[2021-03-07 14:08:26][DirewolfScape]: [SystemTerminator] Server successfully terminated!

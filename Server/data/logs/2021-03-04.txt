@@ -1,0 +1,719 @@
+[2021-03-04 06:38:41][2009scape]: Prompting 2009scape Game World...
+[2021-03-04 06:38:41][2009scape]: Initializing cache...
+[2021-03-04 06:38:41][2009scape]: Successfully connected with 'global'.
+[2021-03-04 06:38:41][2009scape]: Initializing new Grand Exchange DB! This may take a moment...
+[2021-03-04 06:38:41][2009scape]: Parsed 30 2009scape scripts...
+[2021-03-04 06:38:41][2009scape]: [Config Parser]: Parsed 119 interface configs.
+[2021-03-04 06:38:41][2009scape]: [Config Parser]: Parsed 13573 object configs.
+[2021-03-04 06:38:41][2009scape]: [Config Parser]: Parsed 1410 region keys.
+[2021-03-04 06:38:41][2009scape]: [Config Parser]: Parsed 4278 NPC configurations
+[2021-03-04 06:38:43][2009scape]: [Config Parser]: Parsed 11951 item configs.
+[2021-03-04 06:38:43][2009scape]: [World Events(penguin-hns)] Penguin HNS initialized.
+[2021-03-04 06:38:43][2009scape]: [World Events(shooting-stars)] Shooting Star event has been initialized.
+[2021-03-04 06:38:43][2009scape]: Init with null player
+[2021-03-04 06:38:44][2009scape]: FOG interface initialized
+[2021-03-04 06:38:44][2009scape]: Registered barrows sets.
+[2021-03-04 06:38:45][2009scape]: Registered manager plugin.barbtraining.fishing.SpotManager@1786f9d5
+[2021-03-04 06:38:45][2009scape]: Initialized 1797 plugins...
+[2021-03-04 06:38:45][2009scape]: [Config Parser]: Parsed 216 ammo configs...
+[2021-03-04 06:38:45][2009scape]: [Config Parser]: Parsed 515 door configs.
+[2021-03-04 06:38:45][2009scape]: [Config Parser]: Parsed 174 ranged weapon configs...
+[2021-03-04 06:38:45][2009scape]: [Config Parser]: Parsed 227 shops.
+[2021-03-04 06:38:45][2009scape]: [Config Parser]: Initialized 434 ground items.
+[2021-03-04 06:38:45][2009scape]: Initialized Rare Drop Table from .\data\RDT.xml\
+[2021-03-04 06:38:45][2009scape]: Made it to 173
+[2021-03-04 06:38:45][2009scape]: [Config Parser]: Parsed 375 music configs.
+[2021-03-04 06:38:45][2009scape]: [Config Parser]: Parsed 0 drop tables.
+[2021-03-04 06:38:46][2009scape]: Made it to 180
+[2021-03-04 06:38:47][2009scape]: 185
+[2021-03-04 06:38:47][2009scape]: 188
+[2021-03-04 06:38:47][2009scape]: Starting NIO reactor...
+[2021-03-04 06:38:47][2009scape]: Attempting to connect to management server...
+[2021-03-04 06:38:47][2009scape]: 2009scape flags GameSettings [name=2009scape, debug=true, devMode=true, gui=false, worldId=1]
+[2021-03-04 06:38:47][2009scape]: 2009scape started in 6212 milliseconds.
+[2021-03-04 06:38:47][2009scape]: [Config Parser]: Spawned 10373 NPCs
+[2021-03-04 06:38:47][2009scape]: Management server status: AVAILABLE.
+[2021-03-04 06:38:47][2009scape]: Successfully registered world to AMS - [id=1]!
+[2021-03-04 06:38:53][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 06:40:04][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:40:04][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:40:56][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 06:41:05][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:41:05][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:42:07][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:42:07][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:42:11][2009scape]: Player cleared. Removed /aip110:Supsep
+[2021-03-04 06:42:11][2009scape]: Remaining Queue:
+[2021-03-04 06:42:59][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 06:43:08][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:43:08][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:44:10][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:44:10][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:45:02][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 06:45:11][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:45:11][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:46:13][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:46:13][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:47:06][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 06:47:15][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:47:15][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:48:17][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:48:17][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:49:09][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 06:49:18][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:49:18][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:49:52][2009scape]: kKmok3kJqOeN6D3mDdihco3oPeYN2KFy6W5--vZUbNA
+[2021-03-04 06:50:18][2009scape]: Ladder null? false
+[2021-03-04 06:50:20][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:50:20][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:50:58][2009scape]: Player cleared. Removed aspects
+[2021-03-04 06:50:58][2009scape]: Remaining Queue:
+[2021-03-04 06:51:12][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 06:51:16][2009scape]: Player cleared. Removed /aip161:0smasher0
+[2021-03-04 06:51:16][2009scape]: Remaining Queue:
+[2021-03-04 06:51:22][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:51:22][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:52:23][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:52:23][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:53:15][2009scape]: kKmok3kJqOeN6D3mDdihco3oPeYN2KFy6W5--vZUbNA
+[2021-03-04 06:53:15][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 06:53:16][2009scape]: KARAMJA
+[2021-03-04 06:53:16][2009scape]: VARROCK
+[2021-03-04 06:53:16][2009scape]: LUMBRIDGE
+[2021-03-04 06:53:16][2009scape]: FALADOR
+[2021-03-04 06:53:16][2009scape]: FREMENNIK
+[2021-03-04 06:53:16][2009scape]: SEERS' VILLAGE
+[2021-03-04 06:53:25][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:53:25][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:54:26][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:54:26][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:55:18][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 06:55:27][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:55:27][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:56:29][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:56:29][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:57:21][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 06:57:30][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:57:30][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:57:45][2009scape]: Player cleared. Removed /aip154:lunamelina
+[2021-03-04 06:57:45][2009scape]: Remaining Queue:
+[2021-03-04 06:57:45][2009scape]: aspects
+[2021-03-04 06:58:32][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:58:32][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 06:59:24][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 06:59:33][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 06:59:33][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:00:34][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:00:34][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:01:27][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 07:01:36][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:01:36][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:01:58][2009scape]: Opening closed gate.
+[2021-03-04 07:02:37][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:02:37][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:03:29][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 07:03:38][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:03:38][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:04:40][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:04:40][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:05:21][2009scape]: Player cleared. Removed aspects
+[2021-03-04 07:05:21][2009scape]: Remaining Queue:
+[2021-03-04 07:05:25][2009scape]: Player cleared. Removed /aip57:Ketnet
+[2021-03-04 07:05:25][2009scape]: Remaining Queue:
+[2021-03-04 07:05:32][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 07:05:34][2009scape]: kKmok3kJqOeN6D3mDdihco3oPeYN2KFy6W5--vZUbNA
+[2021-03-04 07:05:34][2009scape]: KARAMJA
+[2021-03-04 07:05:34][2009scape]: VARROCK
+[2021-03-04 07:05:34][2009scape]: LUMBRIDGE
+[2021-03-04 07:05:34][2009scape]: FALADOR
+[2021-03-04 07:05:34][2009scape]: FREMENNIK
+[2021-03-04 07:05:34][2009scape]: SEERS' VILLAGE
+[2021-03-04 07:05:40][2009scape]: Player cleared. Removed aspects
+[2021-03-04 07:05:40][2009scape]: Remaining Queue:
+[2021-03-04 07:05:41][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:05:41][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:05:50][2009scape]: Player cleared. Removed /aip77:PeatMoss
+[2021-03-04 07:05:50][2009scape]: Remaining Queue:
+[2021-03-04 07:06:04][2009scape]: kKmok3kJqOeN6D3mDdihco3oPeYN2KFy6W5--vZUbNA
+[2021-03-04 07:06:05][2009scape]: KARAMJA
+[2021-03-04 07:06:05][2009scape]: VARROCK
+[2021-03-04 07:06:05][2009scape]: LUMBRIDGE
+[2021-03-04 07:06:05][2009scape]: FALADOR
+[2021-03-04 07:06:05][2009scape]: FREMENNIK
+[2021-03-04 07:06:05][2009scape]: SEERS' VILLAGE
+[2021-03-04 07:06:07][2009scape]: Player cleared. Removed aspects
+[2021-03-04 07:06:07][2009scape]: Remaining Queue:
+[2021-03-04 07:06:42][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:06:42][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:07:35][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 07:07:44][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:07:44][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:07:57][2009scape]: Opening closed gate.
+[2021-03-04 07:08:45][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:08:45][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:09:37][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 07:09:46][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:09:46][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:10:48][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:10:48][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:10:52][2009scape]: Player cleared. Removed /aip113:BestSenpai
+[2021-03-04 07:10:52][2009scape]: Remaining Queue:
+[2021-03-04 07:11:40][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 07:11:49][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:11:49][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:12:50][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:12:50][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:13:43][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 07:13:52][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:13:52][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:13:57][2009scape]: Opening closed gate.
+[2021-03-04 07:14:53][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:14:53][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:15:45][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 07:15:54][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:15:54][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:16:53][2009scape]: Player cleared. Removed /aip98:Maxiorek1200
+[2021-03-04 07:16:53][2009scape]: Remaining Queue:
+[2021-03-04 07:16:56][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:16:56][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:17:48][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 07:17:57][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:17:57][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:18:18][2009scape]: kKmok3kJqOeN6D3mDdihco3oPeYN2KFy6W5--vZUbNA
+[2021-03-04 07:18:19][2009scape]: kKmok3kJqOeN6D3mDdihco3oPeYN2KFy6W5--vZUbNA
+[2021-03-04 07:18:26][2009scape]: kKmok3kJqOeN6D3mDdihco3oPeYN2KFy6W5--vZUbNA
+[2021-03-04 07:18:26][2009scape]: KARAMJA
+[2021-03-04 07:18:26][2009scape]: VARROCK
+[2021-03-04 07:18:26][2009scape]: LUMBRIDGE
+[2021-03-04 07:18:26][2009scape]: FALADOR
+[2021-03-04 07:18:26][2009scape]: FREMENNIK
+[2021-03-04 07:18:26][2009scape]: SEERS' VILLAGE
+[2021-03-04 07:18:34][2009scape]: Player cleared. Removed aspects
+[2021-03-04 07:18:34][2009scape]: Remaining Queue:
+[2021-03-04 07:18:58][2009scape]: kKmok3kJqOeN6D3mDdihco3oPeYN2KFy6W5--vZUbNA
+[2021-03-04 07:18:58][2009scape]: KARAMJA
+[2021-03-04 07:18:58][2009scape]: VARROCK
+[2021-03-04 07:18:58][2009scape]: LUMBRIDGE
+[2021-03-04 07:18:58][2009scape]: FALADOR
+[2021-03-04 07:18:58][2009scape]: FREMENNIK
+[2021-03-04 07:18:58][2009scape]: SEERS' VILLAGE
+[2021-03-04 07:18:58][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:18:58][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:19:06][2009scape]: Player cleared. Removed aspects
+[2021-03-04 07:19:06][2009scape]: Remaining Queue:
+[2021-03-04 07:19:06][2009scape]: Opening closed gate.
+[2021-03-04 07:19:27][2009scape]: kKmok3kJqOeN6D3mDdihco3oPeYN2KFy6W5--vZUbNA
+[2021-03-04 07:19:27][2009scape]: KARAMJA
+[2021-03-04 07:19:27][2009scape]: VARROCK
+[2021-03-04 07:19:27][2009scape]: LUMBRIDGE
+[2021-03-04 07:19:27][2009scape]: FALADOR
+[2021-03-04 07:19:27][2009scape]: FREMENNIK
+[2021-03-04 07:19:27][2009scape]: SEERS' VILLAGE
+[2021-03-04 07:19:29][2009scape]: Player cleared. Removed aspects
+[2021-03-04 07:19:29][2009scape]: Remaining Queue:
+[2021-03-04 07:19:51][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 07:20:00][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:20:00][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:21:01][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:21:01][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:21:14][2009scape]: kKmok3kJqOeN6D3mDdihco3oPeYN2KFy6W5--vZUbNA
+[2021-03-04 07:21:14][2009scape]: KARAMJA
+[2021-03-04 07:21:14][2009scape]: VARROCK
+[2021-03-04 07:21:14][2009scape]: LUMBRIDGE
+[2021-03-04 07:21:14][2009scape]: FALADOR
+[2021-03-04 07:21:14][2009scape]: FREMENNIK
+[2021-03-04 07:21:14][2009scape]: SEERS' VILLAGE
+[2021-03-04 07:21:17][2009scape]: Player cleared. Removed aspects
+[2021-03-04 07:21:17][2009scape]: Remaining Queue:
+[2021-03-04 07:21:39][2009scape]: kKmok3kJqOeN6D3mDdihco3oPeYN2KFy6W5--vZUbNA
+[2021-03-04 07:21:39][2009scape]: KARAMJA
+[2021-03-04 07:21:39][2009scape]: VARROCK
+[2021-03-04 07:21:39][2009scape]: LUMBRIDGE
+[2021-03-04 07:21:39][2009scape]: FALADOR
+[2021-03-04 07:21:39][2009scape]: FREMENNIK
+[2021-03-04 07:21:39][2009scape]: SEERS' VILLAGE
+[2021-03-04 07:21:42][2009scape]: Player cleared. Removed aspects
+[2021-03-04 07:21:42][2009scape]: Remaining Queue:
+[2021-03-04 07:21:53][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 07:22:00][2009scape]: Player cleared. Removed /aip63:2m3
+[2021-03-04 07:22:00][2009scape]: Remaining Queue:
+[2021-03-04 07:22:02][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:22:02][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:22:21][2009scape]: Player cleared. Removed /aip47:4Kath
+[2021-03-04 07:22:21][2009scape]: Remaining Queue:
+[2021-03-04 07:23:04][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:23:04][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:23:47][2009scape]: Player cleared. Removed /aip188:GuntherNese
+[2021-03-04 07:23:47][2009scape]: Remaining Queue:
+[2021-03-04 07:23:56][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 07:24:03][2009scape]: kKmok3kJqOeN6D3mDdihco3oPeYN2KFy6W5--vZUbNA
+[2021-03-04 07:24:03][2009scape]: KARAMJA
+[2021-03-04 07:24:03][2009scape]: VARROCK
+[2021-03-04 07:24:03][2009scape]: LUMBRIDGE
+[2021-03-04 07:24:03][2009scape]: FALADOR
+[2021-03-04 07:24:03][2009scape]: FREMENNIK
+[2021-03-04 07:24:03][2009scape]: SEERS' VILLAGE
+[2021-03-04 07:24:05][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:24:05][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:24:05][2009scape]: Player cleared. Removed aspects
+[2021-03-04 07:24:05][2009scape]: Remaining Queue:
+[2021-03-04 07:24:50][2009scape]: Opening closed gate.
+[2021-03-04 07:25:06][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:25:06][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:25:59][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 07:26:08][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:26:08][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:26:18][2009scape]: Banked fish: 0
+[2021-03-04 07:26:18][2009scape]: Banked fish: 0
+[2021-03-04 07:26:53][2009scape]: Player cleared. Removed /aip80:Sumuinen
+[2021-03-04 07:26:53][2009scape]: Remaining Queue:
+[2021-03-04 07:27:09][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:27:09][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:28:01][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 07:28:07][2009scape]: Banked fish: 0
+[2021-03-04 07:28:07][2009scape]: Banked fish: 0
+[2021-03-04 07:28:10][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:28:10][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:28:57][2009scape]: Player cleared. Removed /aip127:Dizho
+[2021-03-04 07:28:57][2009scape]: Remaining Queue:
+[2021-03-04 07:29:12][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:29:12][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:30:04][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 07:30:13][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:30:13][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:31:15][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:31:15][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:31:33][2009scape]: Management server status: NOT_AVAILABLE.
+[2021-03-04 07:32:36][2009scape]: Prompting 2009scape Game World...
+[2021-03-04 07:32:36][2009scape]: Initializing cache...
+[2021-03-04 07:32:36][2009scape]: Successfully connected with 'global'.
+[2021-03-04 07:32:36][2009scape]: Initializing new Grand Exchange DB! This may take a moment...
+[2021-03-04 07:32:36][2009scape]: Parsed 30 2009scape scripts...
+[2021-03-04 07:32:36][2009scape]: [Config Parser]: Parsed 119 interface configs.
+[2021-03-04 07:32:36][2009scape]: [Config Parser]: Parsed 13573 object configs.
+[2021-03-04 07:32:36][2009scape]: [Config Parser]: Parsed 1410 region keys.
+[2021-03-04 07:32:37][2009scape]: [Config Parser]: Parsed 4278 NPC configurations
+[2021-03-04 07:32:37][2009scape]: [Config Parser]: Parsed 11951 item configs.
+[2021-03-04 07:32:38][2009scape]: [World Events(penguin-hns)] Penguin HNS initialized.
+[2021-03-04 07:32:38][2009scape]: [World Events(shooting-stars)] Shooting Star event has been initialized.
+[2021-03-04 07:32:38][2009scape]: Init with null player
+[2021-03-04 07:32:39][2009scape]: FOG interface initialized
+[2021-03-04 07:32:39][2009scape]: Registered barrows sets.
+[2021-03-04 07:32:39][2009scape]: Registered manager plugin.barbtraining.fishing.SpotManager@1786f9d5
+[2021-03-04 07:32:39][2009scape]: Initialized 1797 plugins...
+[2021-03-04 07:32:39][2009scape]: [Config Parser]: Parsed 216 ammo configs...
+[2021-03-04 07:32:39][2009scape]: [Config Parser]: Parsed 174 ranged weapon configs...
+[2021-03-04 07:32:39][2009scape]: [Config Parser]: Parsed 515 door configs.
+[2021-03-04 07:32:39][2009scape]: [Config Parser]: Initialized 434 ground items.
+[2021-03-04 07:32:39][2009scape]: [Config Parser]: Parsed 375 music configs.
+[2021-03-04 07:32:39][2009scape]: [Config Parser]: Parsed 227 shops.
+[2021-03-04 07:32:39][2009scape]: Initialized Rare Drop Table from .\data\RDT.xml\
+[2021-03-04 07:32:39][2009scape]: Made it to 173
+[2021-03-04 07:32:39][2009scape]: [Config Parser]: Parsed 0 drop tables.
+[2021-03-04 07:32:39][2009scape]: Made it to 180
+[2021-03-04 07:32:40][2009scape]: 185
+[2021-03-04 07:32:40][2009scape]: 188
+[2021-03-04 07:32:40][2009scape]: Starting NIO reactor...
+[2021-03-04 07:32:40][2009scape]: [Config Parser]: Spawned 10373 NPCs
+[2021-03-04 07:32:40][2009scape]: Attempting to connect to management server...
+[2021-03-04 07:32:40][2009scape]: 2009scape flags GameSettings [name=2009scape, debug=true, devMode=true, gui=false, worldId=1]
+[2021-03-04 07:32:40][2009scape]: 2009scape started in 4158 milliseconds.
+[2021-03-04 07:32:40][2009scape]: Management server status: AVAILABLE.
+[2021-03-04 07:32:40][2009scape]: Successfully registered world to AMS - [id=1]!
+[2021-03-04 07:32:46][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 07:33:06][2009scape]: kKmok3kJqOeN6D3mDdihco3oPeYN2KFy6W5--vZUbNA
+[2021-03-04 07:33:06][2009scape]: KARAMJA
+[2021-03-04 07:33:06][2009scape]: VARROCK
+[2021-03-04 07:33:06][2009scape]: LUMBRIDGE
+[2021-03-04 07:33:06][2009scape]: FALADOR
+[2021-03-04 07:33:06][2009scape]: FREMENNIK
+[2021-03-04 07:33:06][2009scape]: SEERS' VILLAGE
+[2021-03-04 07:33:08][2009scape]: Player cleared. Removed aspects
+[2021-03-04 07:33:08][2009scape]: Remaining Queue:
+[2021-03-04 07:33:40][2009scape]: kKmok3kJqOeN6D3mDdihco3oPeYN2KFy6W5--vZUbNA
+[2021-03-04 07:33:40][2009scape]: KARAMJA
+[2021-03-04 07:33:40][2009scape]: VARROCK
+[2021-03-04 07:33:40][2009scape]: LUMBRIDGE
+[2021-03-04 07:33:40][2009scape]: FALADOR
+[2021-03-04 07:33:40][2009scape]: FREMENNIK
+[2021-03-04 07:33:40][2009scape]: SEERS' VILLAGE
+[2021-03-04 07:33:40][2009scape]: Player cleared. Removed /aip101:FranciscoJ32
+[2021-03-04 07:33:40][2009scape]: Remaining Queue:
+[2021-03-04 07:33:40][2009scape]: aspects
+[2021-03-04 07:33:45][2009scape]: Player cleared. Removed aspects
+[2021-03-04 07:33:45][2009scape]: Remaining Queue:
+[2021-03-04 07:33:57][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 07:33:57][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 07:34:15][2009scape]: Management server status: NOT_AVAILABLE.
+[2021-03-04 08:13:45][2009scape]: Prompting 2009scape Game World...
+[2021-03-04 08:13:45][2009scape]: Initializing cache...
+[2021-03-04 08:13:45][2009scape]: Successfully connected with 'global'.
+[2021-03-04 08:13:45][2009scape]: Initializing new Grand Exchange DB! This may take a moment...
+[2021-03-04 08:13:45][2009scape]: Parsed 30 2009scape scripts...
+[2021-03-04 08:13:45][2009scape]: [Config Parser]: Parsed 119 interface configs.
+[2021-03-04 08:13:45][2009scape]: [Config Parser]: Parsed 13573 object configs.
+[2021-03-04 08:13:45][2009scape]: [Config Parser]: Parsed 1410 region keys.
+[2021-03-04 08:13:45][2009scape]: [Config Parser]: Parsed 4278 NPC configurations
+[2021-03-04 08:13:46][2009scape]: [Config Parser]: Parsed 11951 item configs.
+[2021-03-04 08:13:47][2009scape]: [World Events(penguin-hns)] Penguin HNS initialized.
+[2021-03-04 08:13:47][2009scape]: [World Events(shooting-stars)] Shooting Star event has been initialized.
+[2021-03-04 08:13:47][2009scape]: Init with null player
+[2021-03-04 08:13:48][2009scape]: FOG interface initialized
+[2021-03-04 08:13:48][2009scape]: Registered barrows sets.
+[2021-03-04 08:13:48][2009scape]: Registered manager plugin.barbtraining.fishing.SpotManager@b7dd107
+[2021-03-04 08:13:48][2009scape]: Initialized 1797 plugins...
+[2021-03-04 08:13:48][2009scape]: [Config Parser]: Parsed 515 door configs.
+[2021-03-04 08:13:48][2009scape]: [Config Parser]: Parsed 216 ammo configs...
+[2021-03-04 08:13:48][2009scape]: [Config Parser]: Parsed 174 ranged weapon configs...
+[2021-03-04 08:13:48][2009scape]: [Config Parser]: Initialized 434 ground items.
+[2021-03-04 08:13:48][2009scape]: [Config Parser]: Parsed 375 music configs.
+[2021-03-04 08:13:48][2009scape]: [Config Parser]: Parsed 227 shops.
+[2021-03-04 08:13:48][2009scape]: Initialized Rare Drop Table from .\data\RDT.xml\
+[2021-03-04 08:13:48][2009scape]: Made it to 173
+[2021-03-04 08:13:48][2009scape]: [Config Parser]: Parsed 0 drop tables.
+[2021-03-04 08:13:49][2009scape]: Made it to 180
+[2021-03-04 08:13:49][2009scape]: 185
+[2021-03-04 08:13:49][2009scape]: 188
+[2021-03-04 08:13:49][2009scape]: Starting NIO reactor...
+[2021-03-04 08:13:49][2009scape]: [Config Parser]: Spawned 10373 NPCs
+[2021-03-04 08:13:49][2009scape]: Attempting to connect to management server...
+[2021-03-04 08:13:49][2009scape]: 2009scape flags GameSettings [name=2009scape, debug=true, devMode=true, gui=false, worldId=1]
+[2021-03-04 08:13:49][2009scape]: 2009scape started in 4500 milliseconds.
+[2021-03-04 08:13:49][2009scape]: Management server status: AVAILABLE.
+[2021-03-04 08:13:49][2009scape]: Successfully registered world to AMS - [id=1]!
+[2021-03-04 08:13:55][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:15:06][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:15:06][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:15:58][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:16:07][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:16:07][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:17:09][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:17:09][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:18:01][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:18:10][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:18:10][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:19:12][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:19:12][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:20:05][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:20:14][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:20:14][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:20:56][2009scape]: Player cleared. Removed /aip106:Listeffect
+[2021-03-04 08:20:56][2009scape]: Remaining Queue:
+[2021-03-04 08:21:16][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:21:16][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:22:09][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:22:18][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:22:18][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:23:20][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:23:20][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:24:12][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:24:21][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:24:21][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:25:23][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:25:23][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:25:55][2009scape]: Player cleared. Removed /aip110:Lildirt
+[2021-03-04 08:25:55][2009scape]: Remaining Queue:
+[2021-03-04 08:26:15][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:26:25][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:26:25][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:27:26][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:27:26][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:28:18][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:28:27][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:28:27][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:29:24][2009scape]: Player cleared. Removed /aip155:h
+[2021-03-04 08:29:24][2009scape]: Remaining Queue:
+[2021-03-04 08:29:29][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:29:29][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:30:21][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:30:30][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:30:30][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:31:32][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:31:32][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:32:24][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:32:33][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:32:33][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:33:35][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:33:35][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:34:27][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:34:37][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:34:37][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:35:38][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:35:38][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:36:30][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:36:40][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:36:40][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:37:41][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:37:41][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:37:52][2009scape]: Opening closed gate.
+[2021-03-04 08:38:33][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:38:42][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:38:42][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:39:44][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:39:44][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:40:37][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:40:46][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:40:46][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:41:48][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:41:48][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:42:40][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:42:49][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:42:49][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:43:51][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:43:51][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:44:43][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:44:52][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:44:52][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:45:09][2009scape]: Opening closed gate.
+[2021-03-04 08:45:54][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:45:54][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:46:46][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:46:55][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:46:55][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:47:57][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:47:57][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:48:49][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:48:58][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:48:58][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:49:59][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:49:59][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:50:52][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:51:01][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:51:01][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:51:43][2009scape]: Opening closed gate.
+[2021-03-04 08:51:44][2009scape]: Player cleared. Removed /aip101:Grayden
+[2021-03-04 08:51:44][2009scape]: Remaining Queue:
+[2021-03-04 08:52:02][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:52:02][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:52:54][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:53:04][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:53:04][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:53:27][2009scape]: Player cleared. Removed /aip107:Zelatrix
+[2021-03-04 08:53:27][2009scape]: Remaining Queue:
+[2021-03-04 08:53:30][2009scape]: kKmok3kJqOeN6D3mDdihco3oPeYN2KFy6W5--vZUbNA
+[2021-03-04 08:54:06][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:54:06][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:54:23][2009scape]: Ladder null? false
+[2021-03-04 08:54:58][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:55:08][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:55:08][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:56:09][2009scape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 08:56:09][2009scape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 08:56:31][2009scape]: Player cleared. Removed noobslayer69
+[2021-03-04 08:56:31][2009scape]: Remaining Queue:
+[2021-03-04 08:58:56][2009scape]: Prompting 2009scape Game World...
+[2021-03-04 08:58:56][2009scape]: Initializing cache...
+[2021-03-04 08:58:56][2009scape]: Successfully connected with 'global'.
+[2021-03-04 08:58:56][2009scape]: Initializing new Grand Exchange DB! This may take a moment...
+[2021-03-04 08:58:56][2009scape]: Parsed 30 2009scape scripts...
+[2021-03-04 08:58:57][2009scape]: [Config Parser]: Parsed 119 interface configs.
+[2021-03-04 08:58:57][2009scape]: [Config Parser]: Parsed 13573 object configs.
+[2021-03-04 08:58:57][2009scape]: [Config Parser]: Parsed 1410 region keys.
+[2021-03-04 08:58:57][2009scape]: [Config Parser]: Parsed 4278 NPC configurations
+[2021-03-04 08:58:57][2009scape]: [Config Parser]: Parsed 11951 item configs.
+[2021-03-04 08:58:58][2009scape]: [World Events(penguin-hns)] Penguin HNS initialized.
+[2021-03-04 08:58:58][2009scape]: [World Events(shooting-stars)] Shooting Star event has been initialized.
+[2021-03-04 08:58:58][2009scape]: Init with null player
+[2021-03-04 08:58:58][2009scape]: FOG interface initialized
+[2021-03-04 08:58:58][2009scape]: Registered barrows sets.
+[2021-03-04 08:58:58][2009scape]: Registered manager plugin.barbtraining.fishing.SpotManager@5eccd3b9
+[2021-03-04 08:58:58][2009scape]: Initialized 1797 plugins...
+[2021-03-04 08:58:58][2009scape]: [Config Parser]: Parsed 216 ammo configs...
+[2021-03-04 08:58:58][2009scape]: [Config Parser]: Parsed 515 door configs.
+[2021-03-04 08:58:58][2009scape]: [Config Parser]: Initialized 434 ground items.
+[2021-03-04 08:58:58][2009scape]: [Config Parser]: Parsed 174 ranged weapon configs...
+[2021-03-04 08:58:58][2009scape]: [Config Parser]: Parsed 375 music configs.
+[2021-03-04 08:58:58][2009scape]: Initialized Rare Drop Table from .\data\RDT.xml\
+[2021-03-04 08:58:58][2009scape]: Made it to 173
+[2021-03-04 08:58:59][2009scape]: [Config Parser]: Parsed 227 shops.
+[2021-03-04 08:58:59][2009scape]: [Config Parser]: Parsed 0 drop tables.
+[2021-03-04 08:58:59][2009scape]: Made it to 180
+[2021-03-04 08:58:59][2009scape]: 185
+[2021-03-04 08:58:59][2009scape]: 188
+[2021-03-04 08:58:59][2009scape]: Starting NIO reactor...
+[2021-03-04 08:58:59][2009scape]: [Config Parser]: Spawned 10373 NPCs
+[2021-03-04 08:58:59][2009scape]: Attempting to connect to management server...
+[2021-03-04 08:58:59][2009scape]: 2009scape flags GameSettings [name=2009scape, debug=true, devMode=true, gui=false, worldId=1]
+[2021-03-04 08:58:59][2009scape]: 2009scape started in 3806 milliseconds.
+[2021-03-04 08:58:59][2009scape]: Management server status: AVAILABLE.
+[2021-03-04 08:58:59][2009scape]: Successfully registered world to AMS - [id=1]!
+[2021-03-04 08:59:05][2009scape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 08:59:10][2009scape]: [SystemShutdownHook] Terminating...
+[2021-03-04 08:59:10][2009scape]: [SystemTerminator] Initializing termination sequence - do not shutdown!
+[2021-03-04 08:59:10][2009scape]: [SystemTerminator] Saving data [dir=E:\2009Scape\Server\data]...
+[2021-03-04 08:59:10][2009scape]: [SystemTerminator] Saved Grand Exchange databases!
+[2021-03-04 08:59:10][2009scape]: [SystemTerminator] Saved player accounts!
+[2021-03-04 08:59:10][2009scape]: [SystemTerminator] Server successfully terminated!
+[2021-03-04 09:06:14][DirewolfScape]: Prompting DirewolfScape Game World...
+[2021-03-04 09:06:14][DirewolfScape]: Initializing cache...
+[2021-03-04 09:06:14][DirewolfScape]: Successfully connected with 'global'.
+[2021-03-04 09:06:14][DirewolfScape]: Parsed 30 DirewolfScape scripts...
+[2021-03-04 09:06:14][DirewolfScape]: [Config Parser]: Parsed 119 interface configs.
+[2021-03-04 09:06:14][DirewolfScape]: [Config Parser]: Parsed 13573 object configs.
+[2021-03-04 09:06:14][DirewolfScape]: [Config Parser]: Parsed 1410 region keys.
+[2021-03-04 09:06:15][DirewolfScape]: [Config Parser]: Parsed 4278 NPC configurations
+[2021-03-04 09:06:15][DirewolfScape]: [Config Parser]: Parsed 11951 item configs.
+[2021-03-04 09:06:15][DirewolfScape]: [World Events(penguin-hns)] Penguin HNS initialized.
+[2021-03-04 09:06:15][DirewolfScape]: [World Events(shooting-stars)] Shooting Star event has been initialized.
+[2021-03-04 09:06:15][DirewolfScape]: Init with null player
+[2021-03-04 09:06:16][DirewolfScape]: FOG interface initialized
+[2021-03-04 09:06:16][DirewolfScape]: Registered barrows sets.
+[2021-03-04 09:06:16][DirewolfScape]: Registered manager plugin.barbtraining.fishing.SpotManager@6bff19ff
+[2021-03-04 09:06:16][DirewolfScape]: Initialized 1797 plugins...
+[2021-03-04 09:06:16][DirewolfScape]: Initialized Rare Drop Table from .\data\RDT.xml\
+[2021-03-04 09:06:16][DirewolfScape]: [Config Parser]: Parsed 216 ammo configs...
+[2021-03-04 09:06:16][DirewolfScape]: [Config Parser]: Parsed 174 ranged weapon configs...
+[2021-03-04 09:06:16][DirewolfScape]: Made it to 173
+[2021-03-04 09:06:16][DirewolfScape]: [Config Parser]: Parsed 515 door configs.
+[2021-03-04 09:06:16][DirewolfScape]: [Config Parser]: Initialized 434 ground items.
+[2021-03-04 09:06:16][DirewolfScape]: [Config Parser]: Parsed 227 shops.
+[2021-03-04 09:06:16][DirewolfScape]: [Config Parser]: Parsed 375 music configs.
+[2021-03-04 09:06:16][DirewolfScape]: [Config Parser]: Parsed 0 drop tables.
+[2021-03-04 09:06:16][DirewolfScape]: Made it to 180
+[2021-03-04 09:06:17][DirewolfScape]: 185
+[2021-03-04 09:06:17][DirewolfScape]: 188
+[2021-03-04 09:06:17][DirewolfScape]: Starting NIO reactor...
+[2021-03-04 09:06:17][DirewolfScape]: [Config Parser]: Spawned 10373 NPCs
+[2021-03-04 09:06:17][DirewolfScape]: Attempting to connect to management server...
+[2021-03-04 09:06:17][DirewolfScape]: DirewolfScape flags GameSettings [name=DirewolfScape, debug=true, devMode=true, gui=false, worldId=1]
+[2021-03-04 09:06:17][DirewolfScape]: DirewolfScape started in 3102 milliseconds.
+[2021-03-04 09:06:17][DirewolfScape]: Management server status: AVAILABLE.
+[2021-03-04 09:06:17][DirewolfScape]: Successfully registered world to AMS - [id=1]!
+[2021-03-04 09:06:23][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:06:56][DirewolfScape]: kKmok3kJqOeN6D3mDdihco3oPeYN2KFy6W5--vZUbNA
+[2021-03-04 09:06:56][DirewolfScape]: KARAMJA
+[2021-03-04 09:06:56][DirewolfScape]: VARROCK
+[2021-03-04 09:06:56][DirewolfScape]: LUMBRIDGE
+[2021-03-04 09:06:56][DirewolfScape]: FALADOR
+[2021-03-04 09:06:56][DirewolfScape]: FREMENNIK
+[2021-03-04 09:06:56][DirewolfScape]: SEERS' VILLAGE
+[2021-03-04 09:07:14][DirewolfScape]: Player cleared. Removed noobslayer69
+[2021-03-04 09:07:14][DirewolfScape]: Remaining Queue:
+[2021-03-04 09:07:34][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:07:34][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:08:27][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:08:36][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:08:36][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:09:38][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:09:38][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:10:31][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:10:40][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:10:40][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:11:42][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:11:42][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:11:48][DirewolfScape]: Player cleared. Removed /aip167:Ghostiami1
+[2021-03-04 09:11:48][DirewolfScape]: Remaining Queue:
+[2021-03-04 09:12:35][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:12:45][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:12:45][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:13:47][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:13:47][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:14:17][DirewolfScape]: Player cleared. Removed /aip92:Henkkawaa
+[2021-03-04 09:14:17][DirewolfScape]: Remaining Queue:
+[2021-03-04 09:14:40][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:14:49][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:14:49][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:15:51][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:15:51][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:16:44][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:16:53][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:16:53][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:17:55][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:17:55][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:18:48][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:18:57][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:18:57][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:19:59][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:19:59][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:20:51][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:21:00][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:21:00][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:21:26][DirewolfScape]: Player cleared. Removed /aip142:Techno177
+[2021-03-04 09:21:26][DirewolfScape]: Remaining Queue:
+[2021-03-04 09:21:52][DirewolfScape]: Player cleared. Removed /aip152:Kusle
+[2021-03-04 09:21:52][DirewolfScape]: Remaining Queue:
+[2021-03-04 09:22:02][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:22:02][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:22:55][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:23:04][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:23:04][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:24:06][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:24:06][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:24:58][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:25:07][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:25:07][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:26:09][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:26:09][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:27:02][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:27:11][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:27:11][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:28:13][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:28:13][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:29:05][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:29:15][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:29:15][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:30:16][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:30:16][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:30:44][DirewolfScape]: Opening closed gate.
+[2021-03-04 09:31:09][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:31:19][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:31:19][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:32:21][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:32:21][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:33:14][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:33:23][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:33:23][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:34:25][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:34:25][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:35:18][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:35:27][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:35:27][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:36:29][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:36:29][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:37:22][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:37:31][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:37:31][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:38:33][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:38:33][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:39:26][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:39:35][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:39:35][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:40:37][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:40:37][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:41:30][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:41:40][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:41:40][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:42:42][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:42:42][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:43:34][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:43:41][DirewolfScape]: Opening closed gate.
+[2021-03-04 09:43:44][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:43:44][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:44:35][DirewolfScape]: Player cleared. Removed /aip139:MakeNotes
+[2021-03-04 09:44:35][DirewolfScape]: Remaining Queue:
+[2021-03-04 09:44:46][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:44:46][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:45:38][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:45:48][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:45:48][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:46:50][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:46:50][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:47:43][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:47:52][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:47:52][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:48:54][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:48:54][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:49:46][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:49:56][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:49:56][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:50:58][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:50:58][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:51:27][DirewolfScape]: Player cleared. Removed /aip69:2
+[2021-03-04 09:51:27][DirewolfScape]: Remaining Queue:
+[2021-03-04 09:51:50][DirewolfScape]: [World Events(shooting-stars)] Fired new shooting star event.
+[2021-03-04 09:52:00][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:52:00][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
+[2021-03-04 09:52:22][DirewolfScape]: Player cleared. Removed /aip59:Clem585
+[2021-03-04 09:52:22][DirewolfScape]: Remaining Queue:
+[2021-03-04 09:53:02][DirewolfScape]: [World Events(penguin-hns)] Reshuffling Penguins...
+[2021-03-04 09:53:02][DirewolfScape]: [World Events(penguin-hns)] Penguins Reshuffled.
