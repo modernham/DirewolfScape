@@ -28,6 +28,7 @@ import core.game.content.consumable.Consumable
 import core.game.content.consumable.Consumables
 import core.game.content.consumable.Food
 import core.game.content.consumable.effects.HealingEffect
+import core.game.content.global.action.DropItemHandler
 import core.game.ge.GrandExchangeOffer
 import core.game.ge.OfferManager
 import core.game.node.entity.skill.Skills
@@ -175,6 +176,17 @@ class ScriptAPI(private val bot: Player) {
         val item = getNearestGroundItem(id)
         if(item != null)
             item.interaction?.handle(bot, item.interaction[2])
+    }
+
+
+    /**
+     * Handles real Item dropping
+     * @param player the bot/player we are using
+     * @param item refrence to the real item from inventory[]
+     * @author aspect
+     */
+    fun dropItem(player: Player, item: Item) {
+        DropItemHandler.drop(player, item)
     }
 
     /**

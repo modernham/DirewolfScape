@@ -17,11 +17,17 @@ import plugin.ai.general.GeneralBotCreator
 import plugin.ai.general.ScriptAPI
 import plugin.ai.general.scriptrepository.*
 
+
+/**
+ * Slayes creatures passed as arguments
+ *@author aspect
+ */
+
 @PlayerCompatible
 @ScriptName("Simple Monster Killer")
 @ScriptDescription("Start anywhere near chosen monster with '::script slayer monstername'.",
         "Make sure monster name matches spelling exactly.",
-        "Does not eat, or handle randoms.")
+        "Currently only 1 word monster names supported.")
 @ScriptIdentifier("slayer")
 class Slayer() : Script() {
     var state = State.SETUP
