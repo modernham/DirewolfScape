@@ -55,6 +55,10 @@ class ScriptAPI(private val bot: Player) {
         return sqrt((n1.location.x - n2.location.x.toDouble()).pow(2.0) + (n2.location.y - n1.location.y.toDouble()).pow(2.0))
     }
 
+    fun distance(n1: Location, n2: Location): Double {
+        return sqrt((n1.location.x - n2.location.x.toDouble()).pow(2.0) + (n2.location.y - n1.location.y.toDouble()).pow(2.0))
+    }
+
     /**
      * Gets the nearest node with name entityName
      * @param entityName the name of the node to look for
@@ -65,13 +69,15 @@ class ScriptAPI(private val bot: Player) {
         var entity: Node? = null
         var minDistance = Double.MAX_VALUE
         for (node in RegionManager.forId(bot.location.regionId).planes[bot.location.z].entities) {
-            if (node != null && node.name == entityName && distance(bot, node) < minDistance && !Pathfinder.find(bot, node).isMoveNear) {
+            if (node != null && node.name.equals(entityName, true) && distance(bot, node) < minDistance && !Pathfinder.find(bot, node).isMoveNear) {
+                bot.sendMessage(colorize("Found Node"))
                 entity = node
                 minDistance = distance(bot, node)
             }
         }
         return entity
     }
+
 
     /**
      * Gets the nearest node with matching id.
@@ -133,6 +139,43 @@ class ScriptAPI(private val bot: Player) {
                 if (e != null && e.name.toLowerCase() == name.toLowerCase() && distance(bot, e) < minDistance && !Pathfinder.find(bot, e).isMoveNear) {
                     entity = e
                     minDistance = distance(bot, e)
+                }
+            }
+            return entity
+        }
+    }
+
+
+
+    /**
+     * Gets the nearest location to the locatio we pass in
+     * @param entityName the name of the node to look for
+     * @param location the point to search from
+     * @param object is this a game object
+     * @return the nearest node with a matching name or null
+     * @author aspect
+     */
+
+    fun getNearestNode(name: String, location: Location, `object`: Boolean): Node? {
+        if (`object`) {
+            var entity: Node? = null
+            var minDistance = Double.MAX_VALUE
+            for (objects in RegionManager.forId(bot.location.regionId).planes[bot.location.z].objects) {
+                for(e in objects) {
+                    if (e != null && e.name.toLowerCase() == name.toLowerCase() && distance(location, e) < minDistance && !Pathfinder.find(location, e).isMoveNear && e.isActive) {
+                        entity = e
+                        minDistance = distance(bot, e)
+                    }
+                }
+            }
+            return if(entity == null) null else entity as GameObject
+        } else {
+            var entity: Node? = null
+            var minDistance = Double.MAX_VALUE
+            for (e in RegionManager.forId(bot.location.regionId).planes[bot.location.z].entities) {
+                if (e != null && e.name.toLowerCase() == name.toLowerCase() && distance(location, e) < minDistance && !Pathfinder.find(location, e).isMoveNear) {
+                    entity = e
+                    minDistance = distance(location, e)
                 }
             }
             return entity
@@ -248,7 +291,7 @@ class ScriptAPI(private val bot: Player) {
             return false
         }
         if (name != null){
-            if(target.name != name)
+            if(target.name.toLowerCase() != name.toLowerCase())
                 return false
         }
         return target.definition.hasAction("attack")

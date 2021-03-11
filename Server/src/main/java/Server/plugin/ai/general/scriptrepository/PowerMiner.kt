@@ -7,6 +7,7 @@ import core.game.world.map.Location
 import core.game.world.map.zone.ZoneBorders
 import core.tools.Items
 import core.tools.stringtools.colorize
+import plugin.ai.general.ScriptAPI
 import plugin.ai.skillingbot.SkillingBotAssembler
 
 
@@ -17,8 +18,7 @@ import plugin.ai.skillingbot.SkillingBotAssembler
 
 @PlayerCompatible
 @ScriptName("PowerMiner")
-@ScriptDescription("Start with '::script powerminer'.",
-        "Start near ore you want to mine.")
+@ScriptDescription("Start near ore you want to mine.")
 
 @ScriptIdentifier("powerminer")
 class PowerMiner : Script() {
@@ -34,24 +34,34 @@ class PowerMiner : Script() {
 
     var state = State.INIT
     var startLocation = Location(0,0,0)
+    var sl = Location.create(1,1,1)
+    var minedore = 0
+    var overlay: ScriptAPI.BottingOverlay?= null
 
 
 
     override fun tick() {
         when (state) {
             State.INIT -> {
+                overlay = scriptAPI.getOverlay()
+                overlay!!.init()
+                overlay!!.setTitle("Powerminer")
+                overlay!!.setTaskLabel("Ores Mined:")
+                overlay!!.setAmount(0)
                 bot.sendMessage(colorize("Starting Script"))
                 startLocation = bot.location
                 state = State.MINING
             }
             State.MINING -> {
-                val rock = scriptAPI.getNearestNode("rocks",true)
-                if (rock != null) {
+                val rock = scriptAPI.getNearestNode("rocks", startLocation, true)
+                if (rock != null && !bot.inventory.isFull) {
                     rock.interaction.handle(bot, rock.interaction[0])
+                    minedore++
+                    overlay!!.setAmount(minedore - 1)
+                }
                     if (bot.inventory.isFull){
                         state = State.DROPPING
                     }
-                }
                 if (rock == null){
                     bot.sendMessage(colorize("Looking for new rock"))
                     scriptAPI.randomWalkTo(startLocation,3)
@@ -86,8 +96,7 @@ class PowerMiner : Script() {
                         }
                     }
                 }
-                if(!bot.inventory.containsItem(Item(Items.COPPER_ORE_436)) && !bot.inventory.containsItem(Item(Items.TIN_ORE_438)) && !bot.inventory.containsItem(Item(Items.IRON_ORE_440)) && !bot.inventory.containsItem(Item(Items.SILVER_ORE_442)) && !bot.inventory.containsItem(Item(Items.GOLD_ORE_444)) && !bot.inventory.containsItem(Item(Items.MITHRIL_ORE_447)) && !bot.inventory.containsItem(Item(Items.COAL_453))&& !bot.inventory.containsItem(Item(Items.ADAMANTITE_ORE_449)))
-                    state = State.MINING
+                state = State.MINING
 
             }
         }

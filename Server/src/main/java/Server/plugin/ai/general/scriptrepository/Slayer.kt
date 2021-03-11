@@ -27,7 +27,7 @@ import plugin.ai.general.scriptrepository.*
 @ScriptName("Simple Monster Killer")
 @ScriptDescription("Start anywhere near chosen monster with '::script slayer monstername'.",
         "Make sure monster name matches spelling exactly.",
-        "Currently only 1 word monster names supported.")
+        "Replace spaces with '_'.")
 @ScriptIdentifier("slayer")
 class Slayer() : Script() {
     var state = State.SETUP
@@ -71,7 +71,8 @@ class Slayer() : Script() {
 
                     state = State.FAILED
                     if (arguments[0] != null) {
-                        monstertoslay = arguments[0].capitalize()
+                        monstertoslay = arguments[0]
+                        monstertoslay = monstertoslay.replace("_", " ")
                         bot.sendMessage(colorize("Monster Chosen: " + monstertoslay))
                         state = State.INIT
                         bot.sendMessage(colorize("%PStarting slayer for " + arguments[0]))
