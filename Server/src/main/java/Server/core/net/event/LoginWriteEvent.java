@@ -37,6 +37,7 @@ public final class LoginWriteEvent extends IoWriteEvent {
 		switch (response.opcode()) {
 			case 2: //successful login
 				buffer.put(getWorldResponse(session));
+				System.out.println(java.time.LocalTime.now() + "successful login");
 				session.setProducer(GAME_PRODUCER);
 				break;
 			//Could add a case here to auto-restart the server in case the login server goes offline (case 8)
@@ -46,8 +47,10 @@ public final class LoginWriteEvent extends IoWriteEvent {
 				break;
 			case 8:
 				System.out.println(java.time.LocalTime.now() + "CASE 8 Login Write Event/ World Server Offline?");
-			default:
+			default: {
 				System.out.println(java.time.LocalTime.now() + "Unknown Login Reponse");
+				System.out.println(java.time.LocalTime.now() + "LoginWriteEvent, reponse code:" + response.opcode());
+			}
 		}
 		buffer.flip();
 		session.queue(buffer);

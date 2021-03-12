@@ -149,27 +149,27 @@ class MiningSkillPulse(private val player: Player, private val node: Node) : Pul
                 return true
             }
  */
-                applyAchievementTask(reward) // apply achievements
-                SkillingPets.checkPetDrop(player, SkillingPets.GOLEM) // roll for pet
+            applyAchievementTask(reward) // apply achievements
+            SkillingPets.checkPetDrop(player, SkillingPets.GOLEM) // roll for pet
 
                 //add experience
-                val experience = resource!!.getExperience() * rewardAmount
-                player.skills.addExperience(Skills.MINING, experience, true)
+            val experience = resource!!.getExperience() * rewardAmount
+            player.skills.addExperience(Skills.MINING, experience, true)
 
-                //Handle bracelet of clay
-                if(reward == Items.CLAY_434){
-                    val bracelet = player.equipment.get(EquipmentContainer.SLOT_HANDS)
-                    if(bracelet != null && bracelet.id == Items.BRACELET_OF_CLAY_11074){
-                        if(bracelet.charge > 28) bracelet.charge = 28
-                        bracelet.charge--
-                        reward = Items.SOFT_CLAY_1761
-                        player.sendMessage("Your bracelet of clay softens the clay for you.")
-                        if(bracelet.charge <= 0){
-                            player.sendMessage("Your bracelet of clay crumbles to dust.")
-                            player.equipment.remove(bracelet)
-                        }
+            //Handle bracelet of clay
+            if(reward == Items.CLAY_434){
+                val bracelet = player.equipment.get(EquipmentContainer.SLOT_HANDS)
+                if(bracelet != null && bracelet.id == Items.BRACELET_OF_CLAY_11074){
+                    if(bracelet.charge > 28) bracelet.charge = 28
+                    bracelet.charge--
+                    reward = Items.SOFT_CLAY_1761
+                    player.sendMessage("Your bracelet of clay softens the clay for you.")
+                    if(bracelet.charge <= 0){
+                        player.sendMessage("Your bracelet of clay crumbles to dust.")
+                        player.equipment.remove(bracelet)
                     }
                 }
+            }
 
                 //send the message for the resource reward
                 if (isMiningGems) {
@@ -213,36 +213,6 @@ class MiningSkillPulse(private val player: Player, private val node: Node) : Pul
             }
         }
         return false
-    }
-
-    private fun destroyPickaxe(player: Player, pickaxe: SkillingTool) {
-        val radius = 2
-        val l = player.location.transform(RandomFunction.random(-radius, radius), RandomFunction.random(-radius, radius), 0)
-        val p = Pathfinder.find(player.location, l).points.last
-        val headSpawn = Location(p.x, p.y, player.location.z)
-        val headID =
-        when (pickaxe.id) {
-            1265 -> 480
-            1267 -> 482
-            1269 -> 484
-            1271 -> 488
-            1273 -> 486
-            1275 -> 490
-            else -> 0
-        }
-        val pickItem = Item(pickaxe.id)
-        if(player.equipment.containsItem(pickItem)){
-            val realItem = player.equipment.getItem(pickItem)
-            player.equipment.remove(pickItem)
-            player.equipment.add(Item(466),realItem.slot,false,false)
-            player.equipment.refresh()
-        } else if(player.inventory.containsItem(pickItem)) {
-            player.inventory.remove(pickItem)
-            player.inventory.add(Item(466))
-        }
-        player.audioManager.send(17)
-        player.sendMessage(colorize("%RThe head of your pickaxe snaps off and goes flying!"))
-        GroundItemManager.create(Item(headID),headSpawn,player)
     }
 
     private fun calculateRewardAmount(reward: Int): Int {

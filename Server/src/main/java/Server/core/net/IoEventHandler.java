@@ -33,6 +33,7 @@ public class IoEventHandler {
 		/*
 		 * empty.
 		 */
+		System.out.println("Error in connect has occured. Please check IOEventHandler.java");
 	}
 
 	/**
