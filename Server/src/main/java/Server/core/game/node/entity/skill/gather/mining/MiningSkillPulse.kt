@@ -140,10 +140,15 @@ class MiningSkillPulse(private val player: Player, private val node: Node) : Pul
             /**
              * Code for randomly detaching the pickaxe handle from the pickaxe head and sending the head flying
              */
+            /**
+             * Removed this stupid shit from the code
+             */
+/**
             if (RandomFunction.random(1,750) == 390) {
                 destroyPickaxe(player, SkillingTool.getPickaxe(player))
                 return true
-            } else {
+            }
+ */
                 applyAchievementTask(reward) // apply achievements
                 SkillingPets.checkPetDrop(player, SkillingPets.GOLEM) // roll for pet
 
@@ -199,7 +204,6 @@ class MiningSkillPulse(private val player: Player, private val node: Node) : Pul
                         }
                     }
                 }
-            }
 
             //transform to depleted version
             if (!isMiningEssence && resource!!.getRespawnRate() != 0) {
