@@ -1,7 +1,11 @@
 package plugin.ai.general.scriptrepository
 
 import core.game.system.SystemLogger
+import core.game.system.task.Pulse
+import core.game.world.GameWorld
 import core.game.world.map.Location
+import core.game.world.update.flag.context.ChatMessage
+import core.game.world.update.flag.player.ChatFlag
 import core.tools.Items
 import plugin.ai.general.ScriptAPI
 
@@ -40,6 +44,33 @@ class ChickenKiller : Script(){
                 if(chicken == null){
                     scriptAPI.randomWalkTo(startLocation,3)
                 } else {
+
+                    /**
+                     * Workign on Chatbot
+
+
+
+                    GameWorld.Pulser.submit(object : Pulse(4, bot) {
+                        override fun pulse(): Boolean {
+                            val target_name: String = bot.getName().substring(0, 1).toUpperCase() + bot.getName().substring(1)
+                            println(target_name)
+
+                            var response = scriptAPI.sendAIMessage(target_name)
+                            bot.sendChat(response)
+                            bot.updateMasks.register(ChatFlag(ChatMessage(bot, response, 0, 0)))
+                            return true
+                        }
+                    })
+                    */
+
+
+
+
+
+
+
+
+
                     scriptAPI.attackNpcInRadius(bot,"Chicken",10)
                     if(lootFeathers) {
                         state = State.IDLE

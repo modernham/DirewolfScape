@@ -5,7 +5,10 @@ import core.game.interaction.MovementPulse
 import core.game.node.item.Item
 import core.game.world.map.Location
 import core.game.world.map.zone.ZoneBorders
+import core.game.world.update.flag.context.ChatMessage
+import core.game.world.update.flag.player.ChatFlag
 import core.tools.Items
+import plugin.ai.general.cleverbot
 import plugin.ai.skillingbot.SkillingBotAssembler
 
 class DraynorFisher  : Script() {

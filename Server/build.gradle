@@ -30,6 +30,20 @@ sourceSets {
     main.kotlin.srcDirs = ['src/main/java/Server']
 }
 
+repositories {
+   flatDir {
+       dirs 'libs'
+   }
+}
+
+
+dependencies {
+	implementation name: 'cleverbotapi-1.0.3'
+	implementation name: 'gson-2.8.6-javadoc.jar'
+	compile 'com.google.code.gson:gson:2.8.2'
+}
+
+
 jar {
     manifest {
         attributes 'Main-Class': 'core.Server'

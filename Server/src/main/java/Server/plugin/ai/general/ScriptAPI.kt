@@ -232,6 +232,13 @@ class ScriptAPI(private val bot: Player) {
         DropItemHandler.drop(player, item)
     }
 
+    fun sendAIMessage(message: String): String? {
+        System.out.println("ScriptAPI Cleverbot Call")
+        //cleverbothandler.startChat(player, message);
+        var response = ChatBot.chatRequest(message)
+        return response
+    }
+
     /**
      * Gets the nearest GameObject to loc with matching objectId
      * @param loc the location we are checking around

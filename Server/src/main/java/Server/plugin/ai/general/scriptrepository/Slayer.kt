@@ -11,6 +11,8 @@ import core.game.node.entity.player.link.RunScript
 import core.game.node.entity.skill.Skills
 import core.game.node.entity.skill.crafting.armour.HardCraftPulse
 import core.game.world.map.Location
+import core.game.world.update.flag.context.ChatMessage
+import core.game.world.update.flag.player.ChatFlag
 import core.tools.Items
 import core.tools.stringtools.colorize
 import plugin.ai.general.GeneralBotCreator
@@ -117,6 +119,7 @@ class Slayer() : Script() {
                     scriptAPI.randomWalkTo(startLocation, 3)
                 } else {
                     scriptAPI.attackNpcInRadius(bot, monstertoslay, 10)
+
                     slayedAmt++
                     overlay!!.setAmount(slayedAmt)
                 }

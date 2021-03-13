@@ -4,6 +4,8 @@ import core.game.node.item.Item
 import core.tools.Items
 import plugin.ai.skillingbot.SkillingBotAssembler
 import core.game.node.entity.skill.Skills
+import core.game.world.update.flag.context.ChatMessage
+import core.game.world.update.flag.player.ChatFlag
 
 class NonBankingMiner : Script() {
     override fun tick() {
